@@ -1,0 +1,45 @@
+\documentclass[sigplan, screen]{acmart}
+% ACM Information
+\acmConference[EXP '22]{Example Conference}{June 06--10, 2022}{Berlin, Germany}
+\acmYear{2022}
+\acmISBN{978-1-4503-XXXX-X/22/06}
+\acmDOI{10.1145/1122445.1122456}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+% \settopmatter{printacmref=false} % Remove ACM Reference Format from title page
+% \renewcommand\footnotetextcopyrightpermission[1]{} % Remove ACM copyright information at the bottom of the first column
+\begin{document}
+
+\title{sigplan \LaTeX\ Template}
+\author{Author Name}
+\affiliation{%
+	\institution{Institution Name}
+	\city{City Name}
+	\country{Country Name}
+}
+\email{email@email.com}
+
+% Abstract
+% \begin{abstract}
+% 	Your abstract here. This is a dummy text to demonstrate the problem. To solve the issue of text overflowing the page width, ensure that the text is properly wrapped and that there are no excessively long words without spaces. Additionally, consider splitting the text into multiple lines or paragraphs if necessary. This is a new line of the abstract, which should automatically wrap according to the page width. Further text is added to ensure that wrapping behavior is tested thoroughly. 
+% \end{abstract}
+\input{sections/abstract}
+% ACM Copyright
+
+\maketitle
+
+	
+	
+
+\input{sections/introduction}
+\input{sections/cop}
+\input{sections/implement}
+\input{sections/validation}
+\input{sections/related_work}
+\input{sections/conclusion}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{bib/references}
+
+\end{document}

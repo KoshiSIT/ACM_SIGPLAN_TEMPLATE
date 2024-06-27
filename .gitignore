@@ -1,0 +1,48 @@
+# LaTeX intermediate and output files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.dvi
+*.fdb_latexmk
+*.fls
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.out
+*.pdf
+*.ps
+*.snm
+*.synctex(busy)
+*.synctex.gz
+*.toc
+*.vrb
+
+# Editor backup files
+*~
+*.bak
+*.backup
+*.swp
+*.swo
+*.tmp
+*.log
+
+# MacOS specific files
+.DS_Store
+
+# Linux specific files
+*~
+\#*\#
+
+# Windows specific files
+Thumbs.db
+Desktop.ini
+
+# Folders to ignore
+build/
